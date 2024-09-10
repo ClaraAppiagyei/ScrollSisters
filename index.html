@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emnesite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><i class="fa-solid fa-scroll"></i>ScrollSisters</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/library.html" class="navbar_links">Arkiv</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/webshop.html" class="navbar_links">Webshop</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/login.html" class="button">Opret bruger</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>ScrollSisters</h1>
+                <h2>Library</h2>
+                <p>Dyk ned i arkivet af kvindelige karakterer fra Biblen</p>
+                <button class="main_btn"><a href="/library.html">Læs mere her</a></button>
+            </div>
+            <div class="main_img-container">
+                <img src="images/undraw_knowledge_re_5v9l.svg" alt="pic" id="main_img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Library section-->
+    <div class="library">
+        <h1>Månedens highlight</h1>
+        <div class="library_container">
+            <div class="library_card">
+                <h2>Esther</h2>
+                <p>En dronning med mod redder sit folk</p>
+                <button onclick="window.location.href = 'esther.html'">Læs mere</button>
+            </div>
+            <div class="library_card">
+                <h2>Ruth</h2>
+                <p>En fortælling om styrke i kærlighed</p>
+                <button onclick="window.location.href = 'ruth.html'">Læs mere</button>
+            </div>
+            <div class="library_card">
+                <h2>Maria</h2>
+                <p>Fra udkastet af samfundet til Guds eget barn</p>
+                <button onclick="window.location.href = 'maria.html'">Læs mere</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link-wrapper">
+                <div class="footer_link-items">
+                    <h2>Om os</h2>
+                    <a href="/">Historie</a>
+                    <a href="/">info</a>
+                    <a href="/">Job</a>
+                    <a href="/">Opret bruger</a>
+                </div>
+            </div>
+            <div class="footer_link-items">
+                <h2>Social Media</h2>
+                <a href="/">Facebook</a>
+                <a href="/">Instagram</a>
+                <a href="/">LinkedIn</a>
+                <a href="/">Youtube</a>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media-wrap">
+                <div class="footer_logo">
+                    <a href="/" id="footer_logo"><i class="fa-solid fa-scroll"></i>ScrollSisters</a>
+                </div>
+                <p class="website_rights">© ScrollSisters 2024. All rights reserved</p>
+                <div class="social_icons">
+                    <a href="/" class="social_icon-link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social_icon-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social_icon-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social_icon-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/f1e134e36f.js" crossorigin="anonymous"></script>
+</body>
+</html>
